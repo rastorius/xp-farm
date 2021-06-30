@@ -34,4 +34,18 @@ class TriangleAreaCalculatorTest {
         // then
         assertThat(area).isEqualTo(expectedArea);
     }
+
+    @Test
+    @DisplayName("When you calculate the area of a 3 length triangle then should return 4.5")
+    void givenLength3Triangle_whenCalculateArea_thenShouldReturn4AndAHalf() {
+        // given
+        String triangle = ".\n. .\n. . .\n. . . .";
+        float expectedArea = 4.5F;
+
+        // when
+        float area = TriangleAreaCalculator.t_area(triangle);
+
+        // then
+        assertThat(area).isEqualTo(expectedArea);
+    }
 }

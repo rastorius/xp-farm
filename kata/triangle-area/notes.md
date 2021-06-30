@@ -6,7 +6,7 @@
 # Test cases
 * :D - 1 -> 0.5
 * :D - 2 -> 2.0
-* :( - 3 -> 4.5
+* :| - 3 -> 4.5
 * :( - 7 -> 24.5
 
 # Implementation ideas
