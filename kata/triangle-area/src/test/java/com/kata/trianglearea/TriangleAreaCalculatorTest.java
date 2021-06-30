@@ -15,7 +15,7 @@ class TriangleAreaCalculatorTest {
         float expectedArea = 0.5F;
 
         // when
-        float area = TriangleAreaCalculator.t_area(triangle);
+        float area = TriangleAreaCalculator.triangleArea(triangle);
 
         // then
         assertThat(area).isEqualTo(expectedArea);
@@ -29,7 +29,7 @@ class TriangleAreaCalculatorTest {
         float expectedArea = 2.0F;
 
         // when
-        float area = TriangleAreaCalculator.t_area(triangle);
+        float area = TriangleAreaCalculator.triangleArea(triangle);
 
         // then
         assertThat(area).isEqualTo(expectedArea);
@@ -43,7 +43,7 @@ class TriangleAreaCalculatorTest {
         float expectedArea = 4.5F;
 
         // when
-        float area = TriangleAreaCalculator.t_area(triangle);
+        float area = TriangleAreaCalculator.triangleArea(triangle);
 
         // then
         assertThat(area).isEqualTo(expectedArea);
