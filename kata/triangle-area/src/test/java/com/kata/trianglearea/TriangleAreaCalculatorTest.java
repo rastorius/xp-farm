@@ -20,4 +20,18 @@ class TriangleAreaCalculatorTest {
         // then
         assertThat(area).isEqualTo(expectedArea);
     }
+
+    @Test
+    @DisplayName("When you calculate the area of a 2 length triangle then should return 2.0")
+    void givenLength2Triangle_whenCalculateArea_thenShouldReturn2() {
+        // given
+        String triangle = ".\n. .\n. . .";
+        float expectedArea = 2.0F;
+
+        // when
+        float area = TriangleAreaCalculator.t_area(triangle);
+
+        // then
+        assertThat(area).isEqualTo(expectedArea);
+    }
 }
