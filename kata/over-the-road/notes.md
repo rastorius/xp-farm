@@ -9,7 +9,7 @@
 * Should work for really large address and n (500 billion)
 
 # Test cases
-* IN PROGRESS - 1, 1 -> 2
+* DONE - 1, 1 -> 2
 * TO DO - 2, 1 -> 1
 * TO DO - 3, 5 -> 8
 * TO DO - 8, 5 -> 3
