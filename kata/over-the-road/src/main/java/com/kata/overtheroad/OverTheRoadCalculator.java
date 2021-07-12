@@ -8,7 +8,7 @@ public class OverTheRoadCalculator {
         if (address % 2 == 1) {
             return 2 * n - (address - 1L);
         } else {
-            return 1L;
+            return 1L + (2 * n - address);
         }
     }
 }
