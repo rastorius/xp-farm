@@ -5,6 +5,6 @@ public class OverTheRoadCalculator {
     }
 
     public static long overTheRoad(long address, long n) {
-        return 2 * n - address + 1L;
+        return 2L * n - address + 1L;
     }
 }
