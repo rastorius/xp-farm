@@ -10,7 +10,7 @@
 
 # Test cases
 * DONE - 1, 1 -> 2
-* IN PROGRESS - 2, 1 -> 1
+* DONE - 2, 1 -> 1
 * TO DO - 3, 5 -> 8
 * TO DO - 8, 5 -> 3
 * TO DO - 9999999000, 10000000000 -> 1001
