@@ -52,4 +52,19 @@ class OverTheRoadCalculatorTest {
         // then
         assertThat(actualResult).isEqualTo(expectedResult);
     }
+
+    @Test
+    @DisplayName("When calculating over the road for address 8 and n 5 then should return 3")
+    void givenAddress8N5_whenOverTheRoad_thenShouldReturn3() {
+        // given
+        long address = 8L;
+        long n = 5L;
+        long expectedResult = 3L;
+
+        // when
+        long actualResult = OverTheRoadCalculator.overTheRoad(address, n);
+
+        // then
+        assertThat(actualResult).isEqualTo(expectedResult);
+    }
 }
