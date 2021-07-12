@@ -5,10 +5,6 @@ public class OverTheRoadCalculator {
     }
 
     public static long overTheRoad(long address, long n) {
-        if (address % 2 == 1) {
-            return 2 * n - (address - 1L);
-        } else {
-            return 1L + (2 * n - address);
-        }
+        return 2 * n - address + 1L;
     }
 }
