@@ -54,12 +54,12 @@ class OverTheRoadCalculatorTest {
     }
 
     @Test
-    @DisplayName("When calculating over the road for address 8 and n 5 then should return 3")
-    void givenAddress8N5_whenOverTheRoad_thenShouldReturn3() {
+    @DisplayName("When calculating over the road for large address and n then should return correct value")
+    void givenLargeAddressLargeN_whenOverTheRoad_thenShouldReturnCorrectValue() {
         // given
-        long address = 8L;
-        long n = 5L;
-        long expectedResult = 3L;
+        long address = 9999999000L;
+        long n = 5000000000L;
+        long expectedResult = 1001L;
 
         // when
         long actualResult = OverTheRoadCalculator.overTheRoad(address, n);
