@@ -11,5 +11,5 @@
 * DONE - 1x1 -> 1
 * DONE - 1x2 -> 3
 * DONE - 2x1 -> 3
-* REFACTOR - 2x2 -> 9
+* DONE - 2x2 -> 9
 * TO DO - 3x2 -> 18
