@@ -5,7 +5,7 @@ public class Rectangles {
     }
 
     public static int numberOfRectangles(int m, int n) {
-        if (n == 2) {
+        if (n * m == 2) {
             return 3;
         } else {
             return 1;
