@@ -10,7 +10,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class RectanglesTest {
 
     @ParameterizedTest(name = "{0} x {1} -> {2}")
-    @CsvSource({"1,1,1", "1,2,3", "2,1,3", "2,2,9", "4,4,100"})
+    @CsvSource({"1,1,1", "1,2,3", "2,1,3", "2,2,9", "3,2,18"})
     @DisplayName("When calculate rectangles for a m x n grid then should return expected value")
     void givenGrid_whenNumberOfRectangles_thenShouldReturnCorrectValue(int m, int n, int expectedResult) {
         assertThat(Rectangles.numberOfRectangles(m, n))
