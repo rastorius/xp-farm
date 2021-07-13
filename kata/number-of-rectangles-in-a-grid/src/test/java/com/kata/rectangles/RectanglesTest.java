@@ -22,4 +22,19 @@ class RectanglesTest {
         // then
         assertThat(actualResult).isEqualTo(expectedResult);
     }
+
+    @Test
+    @DisplayName("When calculate rectangles for a 1x2 grid then should return 3")
+    void given1x2Grid_whenNumberOfRectangles_thenShouldReturn3() {
+        // given
+        int m = 1;
+        int n = 2;
+        int expectedResult = 3;
+
+        // when
+        int actualResult = Rectangles.numberOfRectangles(m, n);
+
+        // then
+        assertThat(actualResult).isEqualTo(expectedResult);
+    }
 }
