@@ -9,7 +9,7 @@
 
 # Test cases
 * DONE - 1x1 -> 1
-* IN PROGRESS - 1x2 -> 3
+* DONE - 1x2 -> 3
 * TO DO - 2x1 -> 3
 * TO DO - 2x2 -> 9
 * TO DO - 3x2 -> 18
