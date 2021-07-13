@@ -8,7 +8,7 @@
 * 0 n or m are not valid
 
 # Test cases
-* IN PROGRESS - 1x1 -> 1
+* DONE - 1x1 -> 1
 * TO DO - 2x2 -> 9
 * TO DO - 1x2 -> 3
 * TO DO - 2x1 -> 3
