@@ -1,70 +1,19 @@
 package com.kata.rectangles;
 
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 @DisplayName("Unit tests for rectangles in a grid calculator")
 class RectanglesTest {
 
-    @Test
-    @DisplayName("When calculate rectangles for a 1x1 grid then should return 1")
-    void given1x1Grid_whenNumberOfRectangles_thenShouldReturn1() {
-        // given
-        int m = 1;
-        int n = 1;
-        int expectedResult = 1;
-
-        // when
-        int actualResult = Rectangles.numberOfRectangles(m, n);
-
-        // then
-        assertThat(actualResult).isEqualTo(expectedResult);
-    }
-
-    @Test
-    @DisplayName("When calculate rectangles for a 1x2 grid then should return 3")
-    void given1x2Grid_whenNumberOfRectangles_thenShouldReturn3() {
-        // given
-        int m = 1;
-        int n = 2;
-        int expectedResult = 3;
-
-        // when
-        int actualResult = Rectangles.numberOfRectangles(m, n);
-
-        // then
-        assertThat(actualResult).isEqualTo(expectedResult);
-    }
-
-    @Test
-    @DisplayName("When calculate rectangles for a 2x1 grid then should return 3")
-    void given2x1Grid_whenNumberOfRectangles_thenShouldReturn3() {
-        // given
-        int m = 2;
-        int n = 1;
-        int expectedResult = 3;
-
-        // when
-        int actualResult = Rectangles.numberOfRectangles(m, n);
-
-        // then
-        assertThat(actualResult).isEqualTo(expectedResult);
-    }
-
-    @Test
-    @DisplayName("When calculate rectangles for a 2x2 grid then should return 9")
-    void given2x2Grid_whenNumberOfRectangles_thenShouldReturn9() {
-        // given
-        int m = 2;
-        int n = 2;
-        int expectedResult = 9;
-
-        // when
-        int actualResult = Rectangles.numberOfRectangles(m, n);
-
-        // then
-        assertThat(actualResult).isEqualTo(expectedResult);
+    @ParameterizedTest(name = "{0} x {1} -> {2}")
+    @CsvSource({"1,1,1", "1,2,3", "2,1,3", "2,2,9"})
+    @DisplayName("When calculate rectangles for a m x n grid then should return expected value")
+    void givenGrid_whenNumberOfRectangles_thenShouldReturnCorrectValue(int m, int n, int expectedResult) {
+        assertThat(Rectangles.numberOfRectangles(m, n))
+                .isEqualTo(expectedResult);
     }
 }
