@@ -37,4 +37,18 @@ class TowerBuilderTest {
         // then
         assertThat(actualResult).isEqualTo(expectedResult);
     }
+
+    @Test
+    @DisplayName("3 -> [\"  *  \", \" *** \", \"*****\"]")
+    void givenN3_whenBuildTower_thenShouldReturnCorrectList() {
+        // given
+        int n = 3;
+        List<String> expectedResult = List.of("  *  ", " *** ", "*****");
+
+        // when
+        List<String> actualResult = TowerBuilder.buildTower(n);
+
+        // then
+        assertThat(actualResult).isEqualTo(expectedResult);
+    }
 }
