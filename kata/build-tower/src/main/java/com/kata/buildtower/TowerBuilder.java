@@ -7,6 +7,6 @@ public class TowerBuilder {
     }
 
     public static List<String> buildTower(int n) {
-        return null;
+        return List.of("*");
     }
 }
