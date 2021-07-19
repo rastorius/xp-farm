@@ -14,7 +14,7 @@ Return an array based on input n.
 # Plans
 Pomodoro 2  
 - DONE - Test cases (No input validation based on description)  
-- IN PROGRESS - At least 1 TDD cycle
+- DONE - At least 1 TDD cycle
 
 # Test cases
 - DONE - 1 -> ["*"]
