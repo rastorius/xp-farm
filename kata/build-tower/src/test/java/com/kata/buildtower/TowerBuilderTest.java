@@ -12,10 +12,24 @@ class TowerBuilderTest {
 
     @Test
     @DisplayName("1 -> [\"*\"]")
-    void oneStarTest() {
+    void testForOne() {
         // given
         int n = 1;
         List<String> expectedResult = List.of("*");
+
+        // when
+        List<String> actualResult = TowerBuilder.buildTower(n);
+
+        // then
+        assertThat(actualResult).isEqualTo(expectedResult);
+    }
+
+    @Test
+    @DisplayName("2 -> [\" * \", \"***\"]")
+    void testForTwo() {
+        // given
+        int n = 2;
+        List<String> expectedResult = List.of(" * ", "***");
 
         // when
         List<String> actualResult = TowerBuilder.buildTower(n);
