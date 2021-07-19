@@ -19,7 +19,7 @@ Pomodoro 2
 # Test cases
 - DONE - 1 -> ["*"]
 - DONE - 2 -> [" * ", "***"]
-- IN PROGRESS- 3 -> ["  *  ", " *** ", "*****"]
+- DONE- 3 -> ["  *  ", " *** ", "*****"]
 
 # Tech debt
-- TO DO - Refactor to parameterized test
+- DONE - Refactor to parameterized test
