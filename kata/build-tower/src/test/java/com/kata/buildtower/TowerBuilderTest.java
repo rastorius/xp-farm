@@ -12,7 +12,7 @@ class TowerBuilderTest {
 
     @Test
     @DisplayName("1 -> [\"*\"]")
-    void testForOne() {
+    void givenN1_whenBuildTower_thenShouldReturnCorrectList() {
         // given
         int n = 1;
         List<String> expectedResult = List.of("*");
@@ -26,7 +26,7 @@ class TowerBuilderTest {
 
     @Test
     @DisplayName("2 -> [\" * \", \"***\"]")
-    void testForTwo() {
+    void givenN2_whenBuildTower_thenShouldReturnCorrectList() {
         // given
         int n = 2;
         List<String> expectedResult = List.of(" * ", "***");
