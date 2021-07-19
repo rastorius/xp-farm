@@ -17,9 +17,8 @@ Pomodoro 2
 - IN PROGRESS - At least 1 TDD cycle
 
 # Test cases
-- 0 -> []
-- 1 -> ["*"]
-- 2 -> [" * ", "***"]
-- 3 -> ["  *  ", " *** ", "*****"]
+- IN PROGRESS - 1 -> ["*"]
+- TO DO - 2 -> [" * ", "***"]
+- TO DO- 3 -> ["  *  ", " *** ", "*****"]
 
 # Tech debt

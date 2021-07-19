@@ -3,14 +3,24 @@ package com.kata.buildtower;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.util.List;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
-@DisplayName("TODO")
+@DisplayName("Tower builder tests")
 class TowerBuilderTest {
 
     @Test
-    @DisplayName("TODO")
-    void test() {
-        assertThat(1).isEqualTo(1);
+    @DisplayName("1 -> [\"*\"]")
+    void oneStarTest() {
+        // given
+        int n = 1;
+        List<String> expectedResult = List.of("*");
+
+        // when
+        List<String> actualResult = TowerBuilder.buildTower(n);
+
+        // then
+        assertThat(actualResult).isEqualTo(expectedResult);
     }
 }
