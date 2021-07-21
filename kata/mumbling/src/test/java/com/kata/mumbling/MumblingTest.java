@@ -35,4 +35,18 @@ class MumblingTest {
         // then
         assertThat(actualResult).isEqualTo(expectedResult);
     }
+
+    @Test
+    @DisplayName("When accum with a single lower case character then should return same character converted to upper case")
+    void given1LowerCaseCharInput_whenMumbling_thenShouldReturnSameCharUpperCase() {
+        // given
+        String input = "d";
+        String expectedResult = "D";
+
+        // when
+        String actualResult = Mumbling.accum(input);
+
+        // then
+        assertThat(actualResult).isEqualTo(expectedResult);
+    }
 }

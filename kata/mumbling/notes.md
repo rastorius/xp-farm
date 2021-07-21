@@ -15,7 +15,7 @@ https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/java
 # Test cases
 - DONE - "" -> ""  
 - DONE - "A" -> "A"
-- TODO - "d" -> "D"
+- IN PROGRESS - "d" -> "D"
 - TODO - "zx" -> "Z-Xx"
 - TODO - "PQ" -> "P-Qq"
 - TODO - "nM" -> "N-Mm"
