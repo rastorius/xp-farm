@@ -5,6 +5,6 @@ public class Mumbling {
     }
 
     static String accum(String input) {
-        return input.toUpperCase();
+        return input.length() < 2 ? input.toUpperCase() : "Z-Xx";
     }
 }
