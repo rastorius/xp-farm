@@ -19,4 +19,4 @@ https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/java
 - DONE - "zx" -> "Z-Xx"
 - DONE - "PQ" -> "P-Qq"
 - DONE - "nM" -> "N-Mm"
-- IN PROGRESS - "RqaEzty" -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+- DONE - "RqaEzty" -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
