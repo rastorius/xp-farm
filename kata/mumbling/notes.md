@@ -18,5 +18,5 @@ https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/java
 - DONE - "d" -> "D"
 - DONE - "zx" -> "Z-Xx"
 - DONE - "PQ" -> "P-Qq"
-- TODO - "nM" -> "N-Mm"
+- DONE - "nM" -> "N-Mm"
 - TODO - "RqaEzty" -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
