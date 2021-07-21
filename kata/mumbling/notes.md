@@ -17,6 +17,6 @@ https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/java
 - DONE - "A" -> "A"
 - DONE - "d" -> "D"
 - DONE - "zx" -> "Z-Xx"
-- IN PROGRESS - "PQ" -> "P-Qq"
+- DONE - "PQ" -> "P-Qq"
 - TODO - "nM" -> "N-Mm"
 - TODO - "RqaEzty" -> "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"

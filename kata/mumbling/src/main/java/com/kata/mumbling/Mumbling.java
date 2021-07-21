@@ -5,6 +5,17 @@ public class Mumbling {
     }
 
     static String accum(String input) {
-        return input.length() < 2 ? input.toUpperCase() : "Z-Xx";
+        var result = "";
+
+        if (input.length() > 0) {
+            result += input.substring(0, 1).toUpperCase();
+        }
+
+        if (input.length() > 1) {
+            var secondChar = input.substring(1, 2);
+            result += "-" + secondChar.toUpperCase() + secondChar.toLowerCase();
+        }
+
+        return result;
     }
 }
