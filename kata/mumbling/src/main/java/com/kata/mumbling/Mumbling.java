@@ -5,6 +5,6 @@ public class Mumbling {
     }
 
     static String accum(String input) {
-        return "";
+        return input;
     }
 }
