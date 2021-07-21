@@ -13,8 +13,8 @@ https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/java
 - every word starts with a capital letter, rest is lower case
 
 # Test cases
-- IN PROGRESS - "" -> ""  
-- TODO - "A" -> "A"
+- DONE - "" -> ""  
+- IN PROGRESS - "A" -> "A"
 - TODO - "d" -> "D"
 - TODO - "zx" -> "Z-Xx"
 - TODO - "PQ" -> "P-Qq"

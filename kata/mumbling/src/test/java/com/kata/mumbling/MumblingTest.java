@@ -21,4 +21,18 @@ class MumblingTest {
         // then
         assertThat(actualResult).isEqualTo(expectedResult);
     }
+
+    @Test
+    @DisplayName("When accum with a single capital character then should return same character")
+    void given1CapitalCharInput_whenMumbling_thenShouldReturnSameChar() {
+        // given
+        String input = "A";
+        String expectedResult = "A";
+
+        // when
+        String actualResult = Mumbling.accum(input);
+
+        // then
+        assertThat(actualResult).isEqualTo(expectedResult);
+    }
 }
