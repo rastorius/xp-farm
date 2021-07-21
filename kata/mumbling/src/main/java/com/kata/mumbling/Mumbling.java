@@ -5,6 +5,6 @@ public class Mumbling {
     }
 
     static String accum(String input) {
-        return input;
+        return input.toUpperCase();
     }
 }
