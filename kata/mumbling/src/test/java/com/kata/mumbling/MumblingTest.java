@@ -19,7 +19,8 @@ class MumblingTest {
                 Arguments.of("d", "D"),
                 Arguments.of("zx", "Z-Xx"),
                 Arguments.of("PQ", "P-Qq"),
-                Arguments.of("nM", "N-Mm")
+                Arguments.of("nM", "N-Mm"),
+                Arguments.of("RqaEzty", "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy")
         );
     }
 
