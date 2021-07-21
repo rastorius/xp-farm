@@ -16,7 +16,8 @@ class MumblingTest {
     private static Stream<Arguments> testData() {
         return Stream.of(
                 Arguments.of("A", "A"),
-                Arguments.of("d", "D")
+                Arguments.of("d", "D"),
+                Arguments.of("zx", "Z-Xx")
         );
     }
 
