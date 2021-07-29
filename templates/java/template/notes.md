@@ -1,9 +1,8 @@
 # Project initialization
 * :( - Rename rootProject.name in settings.gradle
 * :( - Rename template package
-* :( - Rename solution singleton class and its test class
-* :( - Rename IDEA project and module
+* :( - Rename or delete solution singleton class and its test class
 
-# Test cases
+# Pomodoro plans
 
-# Implementation
+# Requirements and test cases
