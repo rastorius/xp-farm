@@ -1,8 +1,17 @@
-# Project initialization
-* :( - Rename rootProject.name in settings.gradle
-* :( - Rename template package
-* :( - Rename or delete solution singleton class and its test class
+# Kata and requirements
 
-# Pomodoro plans
 
-# Requirements and test cases
+# User stories
+### 🔴 #1 
+As a  
+I want to  
+So that I  
+
+#### 🔴 #1 Scenario
+Given  
+When  
+Then 
+
+# Plans
+### Pomodoro #1
+
