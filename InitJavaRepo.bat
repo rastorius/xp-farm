@@ -1,11 +1,20 @@
 IF "%1"=="" GOTO args_count_wrong
 
-SET TARGET_FOLDER="..\yellow-belt-katas\%1"
+SET TARGET_FOLDER=..\yellow-belt-katas\%1
 ECHO TARGET_FOLDER=%TARGET_FOLDER%
 
 IF NOT EXIST "%TARGET_FOLDER%" (mkdir "%TARGET_FOLDER%") ELSE (GOTO folder_already_exists)
 
 XCOPY /s templates\java\template "%TARGET_FOLDER%"
+
+git init "%TARGET_FOLDER%"
+
+CD "%TARGET_FOLDER%"
+
+git add .
+git commit -m "Init project"
+
+START /b idea64 .
 
 EXIT /b 0
 
