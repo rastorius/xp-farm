@@ -2,16 +2,17 @@
 
 
 # User stories
-### 🔴 #1 
+### #1 
 As a  
 I want to  
 So that I  
 
-#### 🔴 #1 Scenario
+#### #1 Scenario
 Given  
 When  
 Then 
 
 # Plans
 ### Pomodoro #1
+🔴
 
