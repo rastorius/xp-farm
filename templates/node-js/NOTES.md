@@ -1,0 +1,6 @@
+# Plans
+
+### Pomodoro #1
+
+🔴
+
